@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#ff9ad5,#d8b4ff);
+    font-family:Arial, sans-serif;
+    color:white;
+}
+
+.container{
+    text-align:center;
+}
+
+#countdown{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    margin:30px 0;
+}
+
+#countdown div{
+    background:rgba(255,255,255,.2);
+    padding:20px;
+    border-radius:15px;
+    min-width:90px;
+}
+
+span{
+    display:block;
+    font-size:3rem;
+    font-weight:bold;
+}
+
+small{
+    font-size:1rem;
+}
