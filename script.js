@@ -1,4 +1,4 @@
-const eventDate = new Date("Ago 21, 2026 19:00:00").getTime();
+const eventDate = new Date("2026-08-21T19:00:00").getTime();
 
 setInterval(() => {
 
